@@ -144,3 +144,58 @@ header li a {
 .date-time-container button {
   margin-top: 40px;
 }
+
+/* best-offer container */
+.best-offer{
+  height: 482px;
+  border-radius: 20px;
+  max-width: 1320px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+ 
+}
+.best-offer-container{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.best-offer-container div h3{
+    color:var(--primary-color);
+    font-size: 24px;
+}
+.best-offer-container div h2{
+    font-size: 48px;
+}
+.best-offer-container .child-1{
+    flex-basis: 33%;
+}
+.best-offer-container .child-2{
+    /* flex-basis: 33%; */
+    
+}
+.best-offer-container .child-3{
+    flex-basis: 33%;
+    padding-left: 66px;
+}
+
+.outer-circle {
+  width: 350px;
+  height: 350px;
+  background-color: red;          /* red border */
+  padding: 10px;                  /* space between border and image */
+  border-radius: 50%;            /* make it circular */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;            /* make the image circular */
+}
+
