@@ -133,7 +133,6 @@ header li a {
   text-align: center;
   font-size: 32px;
   padding-top: 124px;
-  
 }
 .date-time-container span {
   color: var(--primary-color);
@@ -146,51 +145,50 @@ header li a {
 }
 
 /* best-offer container */
-.best-offer{
+.best-offer {
   height: 482px;
   border-radius: 20px;
   max-width: 1320px;
   margin: 0 auto;
   margin-bottom: 100px;
- 
 }
-.best-offer-container{
-    display: flex;
-    gap: 24px;
-    justify-content: space-between;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
+.best-offer-container {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
-.best-offer-container div h3{
-    color:var(--primary-color);
-    font-size: 24px;
+.best-offer-container div h3 {
+  color: var(--primary-color);
+  font-size: 24px;
 }
-.best-offer-container div h2{
-    font-size: 48px;
+.best-offer-container div h2 {
+  font-size: 48px;
 }
-.best-offer-container .child-1{
-    flex-basis: 33%;
+.best-offer-container .child-1 {
+  flex-basis: 33%;
 }
 
-.best-offer-container .child-3{
-    flex-basis: 33%;
-    padding-left: 66px;
+.best-offer-container .child-3 {
+  flex-basis: 33%;
+  padding-left: 66px;
 }
 
 .outer-circle {
   width: 350px;
   height: 350px;
-  background-color: red;          /* red border */
-  padding: 10px;                  /* space between border and image */
-  border-radius: 50%;            /* make it circular */
+  background-color: red; /* red border */
+  padding: 10px; /* space between border and image */
+  border-radius: 50%; /* make it circular */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .white-gap {
-  background-color: white;     /* the gap color */
-  padding: 10px;               /* size of gap */
+  background-color: white; /* the gap color */
+  padding: 10px; /* size of gap */
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -201,36 +199,54 @@ header li a {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 50%;  
-  padding: 10px;          /* make the image circular */
+  border-radius: 50%;
+  padding: 10px; /* make the image circular */
 }
 
 /* holiday-section  */
-.holiday-section{
-    background-image: url('/images/Rectangle\ 2.png');
-    background-position: bottom;
-    background-repeat: no-repeat;
-    max-width: 1320px;
+.holiday-section {
+  background-image: url("/images/Rectangle\ 2.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  max-width: 1320px;
   margin: 0 auto;
   margin-bottom: 100px;
   min-height: 990px;
 }
-.holiday-text-content{
-    text-align: center;
-   
+.holiday-text-content {
+  text-align: center;
 }
-.holiday-text-content h4{
-    font-size: 24px;
-    font-weight: 400;
+.holiday-text-content h4 {
+  font-size: 24px;
+  font-weight: 400;
 }
-.holiday-text-content span{
-    color: var(--primary-color);
-     font-size: 72px;
-    
+.holiday-text-content span {
+  color: var(--primary-color);
+  font-size: 72px;
 }
-.holiday-text-content h2{
-     font-size: 72px;
+.holiday-text-content h2 {
+  font-size: 72px;
 }
-.holiday-text-content p{
-    margin: 24px 0;
+.holiday-text-content p {
+  margin: 24px 0;
+}
+/* best-gift-text */
+.best-gift {
+  max-width: 1320px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.best-gift-text h4 {
+  color: var(--primary-color);
+  font-size: 24px;
+}
+.best-gift-text h3 {
+  padding: 20px 0;
+  font-size: 48px;
+}
+.best-gift-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 36px;
 }
