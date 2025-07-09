@@ -1,14 +1,13 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* variables */
-:root{
-    --primary-color: red;
+:root {
+  --primary-color: red;
 }
-
 
 /* font */
 
@@ -18,112 +17,130 @@
   font-style: normal;
 }
 /* shared styles */
-.btn-primary{
-    background-color: red;
-    color: white;
-    font-size: 18px;
-    padding: 16px 32px;
-    border-radius: 10px;
-    border: none;
-    
+.btn-primary {
+  background-color: red;
+  color: white;
+  font-size: 18px;
+  padding: 16px 32px;
+  border-radius: 10px;
+  border: none;
 }
 
-
-
-body{
-    max-width: 1600px;
-    margin: 0 auto;
-
+body {
+  max-width: 1600px;
+  margin: 0 auto;
 }
-.section{
-    max-width: 1320px;
-    min-height: 600px;
-    margin: 0 auto;
+.section {
+  max-width: 1320px;
+  min-height: 600px;
+  margin: 0 auto;
 }
-header{
-    margin: 0 auto;
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url('../images/Banner\ Image.png');
-   
-    
+header {
+  margin: 0 auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
+    url("../images/Banner\ Image.png");
 }
-header ul{
-    display: flex;
-    align-items: center;
+header ul {
+  display: flex;
+  align-items: center;
 }
-.home{
-    margin-right: auto;
-    margin-left: 0;
-    font-size: 32px;
+.home {
+  margin-right: auto;
+  margin-left: 0;
+  font-size: 32px;
 }
 
-
-header ul li{
-    list-style: none;
-    margin-left: 30px;
-    padding: 10px 0;
-    
+header ul li {
+  list-style: none;
+  margin-left: 30px;
+  padding: 10px 0;
 }
-header li a{
-    text-decoration: none;
-    color:white;
+header li a {
+  text-decoration: none;
+  color: white;
 }
-.wrap{
-    height: 400px;
-    padding-top: 50px;
-    /* display: flex;
+.wrap {
+  height: 400px;
+  padding-top: 50px;
+  /* display: flex;
     align-items: center;
     justify-content: center;
     align-content: center; */
 }
-.banner-content{
-    color: white;
-    text-align: center;
+.banner-content {
+  color: white;
+  text-align: center;
 }
 .banner-content h1 {
-    font-size: 72px;
+  font-size: 72px;
 }
-.banner-content h3{
-    font-size: 32px;
+.banner-content h3 {
+  font-size: 32px;
 }
 
 /* off-container section */
-.off-container{
-    margin: 100px 0;
-    text-align: center;
+.off-container {
+  margin: 100px 0;
+  text-align: center;
 }
-.off-container h1{
-    color: var(--primary-color);
-    font-size: 88px;
-    font-weight: bold;
+.off-container h1 {
+  color: var(--primary-color);
+  font-size: 88px;
+  font-weight: bold;
 }
-.off-container h4{
-    font-size: 24px;
-    color: var(--primary-color);
-    font-weight: 400;
-    padding: 16px 0;
+.off-container h4 {
+  font-size: 24px;
+  color: var(--primary-color);
+  font-weight: 400;
+  padding: 16px 0;
 }
-.off-container h2{
-    font-size: 48px;
-    font-weight: 700;
-    margin-bottom: 24px;
+.off-container h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 24px;
 }
-
 
 /* mid-night-party section */
-.mid-night-party{
-    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('/images/Vectorrr.png');
-    border-radius: 20px;
-    margin-bottom: 100px;
+.mid-night-party {
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+    url("/images/Vectorrr.png");
+  border-radius: 20px;
+  margin-bottom: 100px;
 }
-.mid-night-party h2{
-    font-size:64px;
-    color: white;
+.mid-night-party h2 {
+  font-size: 64px;
+  color: white;
 }
-.mid-night-party p{
-    color: white;
-    margin: 20px 0 60px;
-    font-size: 18px;
+.mid-night-party p {
+  color: white;
+  margin: 20px 0 60px;
+  font-size: 18px;
 }
-.contents{
-    padding: 146px 0 0 146px;
+.contents {
+  padding: 146px 0 0 146px;
+}
+
+/* date-time-container */
+.date-time {
+  height: 482px;
+  border-radius: 20px;
+  max-width: 1320px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  background: linear-gradient(to bottom, #ffe5e5, #ffffff);
+}
+.date-time-container {
+  text-align: center;
+  font-size: 32px;
+  padding-top: 124px;
+  
+}
+.date-time-container span {
+  color: var(--primary-color);
+}
+.date-time-container h3 {
+  line-height: 56px;
+}
+.date-time-container button {
+  margin-top: 40px;
 }
