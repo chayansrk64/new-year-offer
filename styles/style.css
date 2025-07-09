@@ -35,11 +35,14 @@ body{
     margin: 0 auto;
 
 }
-header{
+.section{
     max-width: 1320px;
     min-height: 600px;
     margin: 0 auto;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../images/Banner\ Image.png');
+}
+header{
+    margin: 0 auto;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url('../images/Banner\ Image.png');
    
     
 }
@@ -85,7 +88,7 @@ header li a{
 
 /* off-container section */
 .off-container{
-    margin: 160px 0;
+    margin: 100px 0;
     text-align: center;
 }
 .off-container h1{
@@ -103,4 +106,24 @@ header li a{
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 24px;
+}
+
+
+/* mid-night-party section */
+.mid-night-party{
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('/images/Vectorrr.png');
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+.mid-night-party h2{
+    font-size:64px;
+    color: white;
+}
+.mid-night-party p{
+    color: white;
+    margin: 20px 0 60px;
+    font-size: 18px;
+}
+.contents{
+    padding: 146px 0 0 146px;
 }
